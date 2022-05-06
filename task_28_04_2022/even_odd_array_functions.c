@@ -2,7 +2,7 @@
 #include <stdbool.h>
 bool even_array(int *array, int len, int max, int min)
 {
-    if (*array == '\0' || len == 0)
+    if (array == NULL || len == 0)
         return false;
     else
     {
@@ -29,7 +29,7 @@ bool even_array(int *array, int len, int max, int min)
 }
 bool odd_array(int *array, int len, int max, int min)
 {
-    if (*array == '\0' || len == 0)
+    if (array == NULL || len == 0)
         return false;
     else
     {
