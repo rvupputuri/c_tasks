@@ -47,6 +47,7 @@ int main()
 {
     int first_array[] = {2, 3, 6, 5};
     int second_array[] = {1, 7, 8, 4};
+    
     int len_first_array = sizeof(first_array) / sizeof(int);
     int len_second_array = sizeof(second_array) / sizeof(int);
     int len_third_array = len_first_array + len_second_array;
